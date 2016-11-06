@@ -1,6 +1,7 @@
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 url: http://snowdj.github.io/math
+baseurl: https://snowdj.github.io/math
 source_url: https://github.com/snowdj/math/blob/master/
 author: Hom
 #pygments: true
