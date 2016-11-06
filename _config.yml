@@ -1,7 +1,7 @@
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
-url: http://platinhom.github.io
-source_url: https://github.com/platinhom/platinhom.github.com/blob/master/
+url: http://snowdj.github.io/math
+source_url: https://github.com/snowdj/math/blob/master/
 author: Hom
 #pygments: true
 #safe: true
@@ -24,21 +24,21 @@ timezone: Asia/Shanghai
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
   config: true
-  id: UA-63959820-1
+  id: #UA-63959820-1
 
 #baidu tongji
 baiduTongji:
   config: true
-  id: 07b65937d246126401c393da419d851e
+  id: #07b65937d246126401c393da419d851e
 
 #comment config
 disqus:
   config: true
-  id: platinhom
+  id: #platinhom
 
 duoshuo:
   config: false
-  id: platinhom
+  id: #platinhom
 
 #baidu share config
 baiduShare:
