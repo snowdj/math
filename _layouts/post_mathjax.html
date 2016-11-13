@@ -6,7 +6,7 @@ comment: true
 <!--Prism code highlight-->
 <!--rel="stylesheet" href="/jcss/css/HomPrism.css">
 <script src="/jcss/js/prism.js"></script-->
-<link rel="stylesheet" href="/jcss/css/rouge_monokai.css">
+<link rel="stylesheet" href="{{ site.baseurl}}/jcss/css/rouge_monokai.css">
 
 <section class="post"> {{ content }} </section>
 
@@ -19,10 +19,10 @@ comment: true
 <span id="busuanzi_container_page_pv">已阅读(<span id="busuanzi_value_page_pv"></span>)</span><br/>
 <a href="{{ site.source_url }}/{{ page.path }}" >Source</a>  
 {% if page.categories %}<span class="categories">类别:
-{% for cat in page.categories %} <a href="/pages/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;{% endfor %}</span>
+{% for cat in page.categories %} <a href="{{ site.baseurl}}/pages/categories/#{{ cat }}" title="{{ cat }}">{{ cat }}</a>&nbsp;{% endfor %}</span>
 {% endif %}
 {% if page.tags %}<span class="tags">标签:
-{% for tag in page.tags %} <a href="/pages/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;{% endfor %}</span>
+{% for tag in page.tags %} <a href="{{ site.baseurl}}/pages/tags/#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;{% endfor %}</span>
 {% endif %}
 </section>
 
