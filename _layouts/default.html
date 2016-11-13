@@ -5,9 +5,9 @@
 <meta name="author" content="{{ site.author }}" />
 {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
 <title>{{ page.title }} | {{ site.author }}</title>
-<link href="/jcss/images/header.jpg" rel="shortcut icon" type="image/x-icon" />
-<link href="/pages/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
-<link rel="stylesheet" href="/jcss/css/HomGH.css">
+<link href="{{ site.baseurl}}/jcss/images/header.jpg" rel="shortcut icon" type="image/x-icon" />
+<link href="{{ site.baseurl}}/pages/feed/" rel="alternate" title="{{ site.author }}" type="application/atom+xml" />
+<link rel="stylesheet" href="{{ site.baseurl}}/jcss/css/HomGH.css">
 
 <!--For web statistics by GA/Baidu, config in _config.yml-->
 {% if site.googleAnaly.config %}
@@ -35,7 +35,7 @@
 {% endif %}
 
 <!--busuanzi for statistics of static web-->
-<script async src="/jcss/js/busuanzi23.pure.mini.js"></script>
+<script async src="{{ site.baseurl}}/jcss/js/busuanzi23.pure.mini.js"></script>
 </head>
 
 <body>
@@ -51,11 +51,11 @@
 {% endif %}
 <div class="buttons">
 <a href="/" title="Go to homepage">Home</a>
-<a href="/pages/categories/" title="Category" >Category</a>
-<a href="/pages/tags/" title="Tag Cloud" >Tags</a>
-<a href="/pages/links/" title="Links" >Link</a>
-<a href="/pages/about/" title="About" >About</a>
-<a href="/pages/feed/feed.xml" title="Subscribe by RSS" >RSS</a>
+<a href="{{ site.baseurl}}/pages/categories/" title="Category" >Category</a>
+<a href="{{ site.baseurl}}/pages/tags/" title="Tag Cloud" >Tags</a>
+<a href="{{ site.baseurl}}/pages/links/" title="Links" >Link</a>
+<a href="{{ site.baseurl}}/pages/about/" title="About" >About</a>
+<a href="{{ site.baseurl}}/pages/feed/feed.xml" title="Subscribe by RSS" >RSS</a>
 <!--
 </br>
 <input type="button" id='changewidthbutton' value="85%W" onclick="changewidth(this.value)">
